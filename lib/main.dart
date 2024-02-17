@@ -1,3 +1,4 @@
+import 'package:appfrontautos/screens/pantalla_inicio.dart';
 import 'package:appfrontautos/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -9,10 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'VENTA AUTOMOTRIS',
+        title: 'VENTA AUTOMOTRIS2',
         debugShowCheckedModeBanner: false,
-        initialRoute: 'home',
+        initialRoute: 'inicio',
         routes: {
+          'inicio': (_) => Pantalla_InicioScreen(),
           'home': (_) => HomeScreen(),
           'datails': (_) => DetailsScreen(),
         });
