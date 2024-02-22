@@ -1,6 +1,9 @@
 import 'package:appfrontautos/widgets/botones_generales.dart';
+import 'package:appfrontautos/widgets/contenedor.dart';
 import 'package:appfrontautos/widgets/img_superior.dart';
 import 'package:flutter/material.dart';
+
+import '../widgets/ContainerVitrina.dart';
 
 class vitrinaScreen extends StatelessWidget {
   const vitrinaScreen({Key? key}) : super(key: key);
@@ -13,13 +16,10 @@ class vitrinaScreen extends StatelessWidget {
         body: Column(
       children: [
         //TODO : CardSwiper
-        SizedBox(),
 
+        AutoVitrina(),
         SizedBox(),
-        BtnCrearUsuario(),
-        SizedBox(),
-        AutoVitrina()
-        //listado horizontal de peliculas
+        Contenedor(),
       ],
     ));
   }

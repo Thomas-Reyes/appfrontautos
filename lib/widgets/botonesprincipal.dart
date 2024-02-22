@@ -41,7 +41,7 @@ class botonesprincipal extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(
-                        context, 'login'); // Acción cuando se presiona el botón
+                        context, 'home'); // Acción cuando se presiona el botón
                   },
                   style: ButtonStyle(
                     minimumSize: MaterialStateProperty.all(Size(302, 40)),
@@ -61,7 +61,8 @@ class botonesprincipal extends StatelessWidget {
                 SizedBox(height: 18),
                 ElevatedButton(
                   onPressed: () {
-                    // Acción cuando se presiona el botón
+                    Navigator.pushNamed(
+                        context, 'login'); // Acción cuando se presiona el botón
                   },
                   style: ButtonStyle(
                     minimumSize: MaterialStateProperty.all(Size(302, 40)),

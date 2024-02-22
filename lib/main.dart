@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
           'inicio': (_) => Pantalla_InicioScreen(),
           'CrearUsuario': (_) => CrearUsuario(),
           'RecuperarCuenta': (_) => RecuperarCuenta(),
-          'home': (_) => HomeScreen(),
+          'home': (_) => HomeScreens(),
           'login': (_) => LoginScreen(),
-          'vitrina': (_) => BtnVitrina(),
+          'vitrina': (_) => vitrinaScreen(),
           'datails': (_) => DetailsScreen(),
         });
   }

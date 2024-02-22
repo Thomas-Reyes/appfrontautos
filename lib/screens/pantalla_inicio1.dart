@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class Pantalla_InicioScreen extends StatelessWidget {
   const Pantalla_InicioScreen({Key? key}) : super(key: key);
-
+//recrar las 2 pantallas faltante con el carrusel
   @override
   Widget build(BuildContext context) {
     return Scaffold(

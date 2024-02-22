@@ -1,3 +1,5 @@
+export 'package:appfrontautos/screens/VitrinaCarrusel.dart';
+
 export 'package:appfrontautos/screens/login.dart';
 
 export 'package:appfrontautos/widgets/widget.dart';

@@ -21,6 +21,7 @@ class BtnLogin extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {
                     // Acción cuando se presiona el botón
+                    Navigator.pushNamed(context, 'home');
                   },
                   style: ButtonStyle(
                     minimumSize: MaterialStateProperty.all(Size(352, 20)),
